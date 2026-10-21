@@ -1,0 +1,4 @@
+interface:
+  display_name: "Lead Finder"
+  short_description: "Qualify companies and LinkedIn contacts with evidence"
+  default_prompt: "Use $lead-finder-agent to find qualified B2B accounts and role-matched contacts, score them separately, and prepare approved outreach."
