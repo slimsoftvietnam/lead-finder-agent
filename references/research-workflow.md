@@ -166,7 +166,7 @@ Summarize what was verified, what remains unknown, the coverage achieved, and an
 
 After the lead research is complete, prepare channel-specific copy for every qualified person with a verified professional route. A lead with no verified route can still have a profile-based LinkedIn connection note when their professional profile is verified; do not create a Zalo message without a verified matching Zalo account.
 
-Keep the drafts persona-aware and evidence-based. Use one relevant work signal, accurate product facts, an appropriate Vietnamese form of address, and one low-pressure ask. Do not imply prior contact, claim a need the source does not prove, or reuse the same generic copy for every person.
+Keep the drafts persona-aware and evidence-based. Use one relevant work signal, accurate product facts, an appropriate Vietnamese form of address, and one low-pressure ask. Across email, follow-ups, LinkedIn notes/messages, and Zalo messages, if addressing the recipient as “anh/chị,” have the sender refer to themself as “em,” not “tôi.” Apply this consistently in the Sheet and HTML drafts. Do not imply prior contact, claim a need the source does not prove, or reuse the same generic copy for every person.
 
 For each person, include the applicable items in the campaign Sheet's outreach queue:
 
