@@ -4,9 +4,10 @@ Skill nghiên cứu và chọn lọc khách hàng tiềm năng B2B, tìm đúng 
 
 ## Skill này hỗ trợ gì?
 
-- Xác định tiêu chí phù hợp với sản phẩm, khách hàng lý tưởng và khu vực mục tiêu.
+- Xác định tiêu chí phù hợp với sản phẩm, persona người mua do người dùng xác nhận và khu vực mục tiêu.
 - Tìm công ty và người phụ trách phù hợp qua nhiều nguồn công khai, bao gồm LinkedIn khi có thể truy cập hợp lệ.
 - Xác minh email công việc, số điện thoại công việc và hồ sơ nghề nghiệp; gắn nguồn cho từng thông tin.
+- Chuẩn bị sẵn email, lời mời/tin nhắn LinkedIn, tin nhắn Zalo theo kênh đã xác minh; nêu next action cho từng lead và hỏi người dùng muốn làm gì tiếp.
 - Khi được yêu cầu lead có thông tin liên hệ, ưu tiên người có cả email và số điện thoại trực tiếp đã xác minh. Không đoán thông tin hoặc thay liên hệ cá nhân bằng hotline/hộp thư chung.
 - Chấm điểm mức phù hợp của công ty và người liên hệ riêng biệt; chuẩn bị Google Sheet, báo cáo HTML và bản nháp tiếp cận theo yêu cầu.
 
@@ -35,9 +36,10 @@ Gọi `$lead-finder-agent` và nêu ngắn gọn:
 
 1. Sản phẩm/dịch vụ, đơn vị gửi và thông tin đã được xác nhận.
 2. Ngành, quy mô, khu vực và chức danh cần tìm.
-3. Số lượng lead mong muốn; có bắt buộc mỗi người phải có cả email và số điện thoại hay không.
-4. Google Sheet hoặc danh sách hiện có cần cập nhật, nếu có.
-5. Đầu ra cần nhận: danh sách, báo cáo, bản nháp email hay ghi chú LinkedIn.
+3. Persona người mua cần tìm (vai trò, cấp bậc, bối cảnh công việc và nhu cầu). Skill sẽ hỏi nếu còn thiếu.
+4. Số lượng lead mong muốn; có bắt buộc mỗi người phải có cả email và số điện thoại hay không.
+5. Google Sheet hoặc danh sách hiện có cần cập nhật, nếu có.
+6. Đầu ra cần nhận: danh sách, báo cáo, bản nháp email, LinkedIn hoặc Zalo.
 
 Ví dụ:
 

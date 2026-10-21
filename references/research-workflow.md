@@ -7,6 +7,7 @@ Use this workflow for new campaigns and refreshes. It is designed to keep accoun
 Confirm from the user's request and explicitly selected materials:
 
 - Offer, seller, verified value proposition, sender identity, and relevant exclusions.
+- **User-confirmed persona(s)**: target function/title and seniority, organization type/scale, relevant work context, problem or desired outcome, and exclusions. Persona is a required research input. If missing, ask the user to provide one or show a proposed persona for confirmation; wait for confirmation before researching leads.
 - Target geography, industries or account types, buyer functions, requested output, and target number of people.
 - Which existing list or Sheet belongs to this campaign.
 
@@ -19,13 +20,14 @@ Before searching, read the selected account/contact list and relevant Sheet tabs
 Write a short internal brief with:
 
 1. The problem and workflows the offer addresses.
-2. Account inclusion and exclusion rules.
-3. Buyer map: budget owner, functional owner, internal champion, technical evaluator, and end-user/business-unit owner where applicable.
-4. Title and keyword variants in the relevant languages.
-5. What public evidence would count as a current need signal, a weaker proxy, or no signal.
-6. A target number of distinct qualified people and a larger working pool to account for exclusions and duplicates.
+2. The user-confirmed persona(s), including job function/title and seniority, work context, organization type/scale, problem or desired outcome, and exclusions.
+3. Account inclusion and exclusion rules derived from the offer and persona.
+4. Buyer map: budget owner, functional owner, internal champion, technical evaluator, and end-user/business-unit owner where applicable.
+5. Title and keyword variants in the relevant languages.
+6. What public evidence would count as a current need signal, a weaker proxy, or no signal.
+7. A target number of distinct qualified people and a larger working pool to account for exclusions and duplicates.
 
-Keep confirmed user criteria separate from research hypotheses. Do not use contact volume as a substitute for account fit. A recruiter may be included as a routing contact when relevant, but label that role clearly and do not score the person as a buyer without evidence.
+Keep the persona as confirmed by the user separate from research hypotheses. Do not silently rewrite or broaden it based on search results. If research suggests a materially different persona, show it as a proposed expansion and ask before changing the active target. Do not use contact volume as a substitute for account fit. A recruiter may be included as a routing contact when relevant, but label that role clearly and do not score the person as a buyer without evidence.
 
 ## 3. Build and verify an account pool
 
@@ -159,3 +161,22 @@ Before handing back, audit a sample and all high-priority rows for:
 - Per-person route status and evidence for every channel the user requested; ensure recruiting-only, generic, inaccessible, conflicting, and unverified routes are labeled correctly.
 
 Summarize what was verified, what remains unknown, the coverage achieved, and any next research action. Do not describe research-only contacts as emailed, approved, or contacted.
+
+## 9. Prepare ready-to-review outreach and hand off the next action
+
+After the lead research is complete, prepare channel-specific copy for every qualified person with a verified professional route. A lead with no verified route can still have a profile-based LinkedIn connection note when their professional profile is verified; do not create a Zalo message without a verified matching Zalo account.
+
+Keep the drafts persona-aware and evidence-based. Use one relevant work signal, accurate product facts, an appropriate Vietnamese form of address, and one low-pressure ask. Do not imply prior contact, claim a need the source does not prove, or reuse the same generic copy for every person.
+
+For each person, include the applicable items in the campaign Sheet's outreach queue:
+
+- **Email:** subject and body, verified recipient route, route source, and Gmail draft status. Create a Gmail draft only under the approval/account rules in `SKILL.md`.
+- **LinkedIn:** connection note and a separate first message for after acceptance; include the verified profile URL, draft text, and status. A pending invite is not a sent message.
+- **Zalo:** first message draft, exact verified professional Zalo route, and route evidence. A phone number alone does not prove that the matching Zalo account belongs to the lead.
+- **Action state:** one primary next action per lead, such as `Review email`, `Connect on LinkedIn`, `Message after acceptance`, `Open verified Zalo`, `Verify route`, or `Do not contact`; include owner/approval state and outcome. Keep alternate viable channels visible without making the lead's next step ambiguous.
+
+Mirror this information in the HTML report: show the persona used for the search, each lead's primary next action, verified channel status, and copy-ready draft(s). Provide links to the exact profile or route and copy controls where supported. A report must not imply that copying or opening a link has sent a message.
+
+At the end of every delivered result or batch, ask the user which next action to take, naming only the actions available for the current leads—for example, create Gmail drafts, open selected LinkedIn profiles to connect, open a verified Zalo chat, continue research, or stop. If no route is verified, offer verification or another channel instead of a send action.
+
+For execution, use the connected Gmail account in Codex for email. Use the in-app browser for LinkedIn and Zalo. When the user chooses a social action, open the exact verified profile/chat and prepare the message for review. Before sending or connecting, make the recipient and exact text reviewable and obtain the user's approval unless the user has already explicitly authorized that exact recipient and message. Do not bypass sign-in/privacy controls or automate bulk actions. Record only platform-confirmed sends/connections as completed in the activity log; record opened profiles and unsent drafts as preparation only.
